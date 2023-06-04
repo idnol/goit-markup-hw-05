@@ -117,6 +117,14 @@ img {
     /*visibility: visible;*/
     width: 100%;
 }
+.header-menu__item:first-child .header-menu__link {
+    color: #404bbf;
+}
+
+.header-menu__item:first-child .header-menu__link:after {
+    width: 100%;
+}
+
 .header-menu__link:hover,
 .header-menu__link:focus
 {
